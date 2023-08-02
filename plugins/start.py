@@ -18,8 +18,8 @@ async def start(bot, message):
              [[
                InlineKeyboardButton("♦️ Help", callback_data = "help")
              ],[
-               InlineKeyboardButton('📢 Update Channel', url='https://t.me/GreyMatter_Bots'),
-               InlineKeyboardButton('♻️ Suppot Group', url='https://t.me/GreyMatters_Bots_Discussion')
+               InlineKeyboardButton('📢 Admin', url='https://t.me/SexyNano'),
+               InlineKeyboardButton('♻️ Owner', url='https://t.me/The_NanamiiKento')
              ],[
                 InlineKeyboardButton('📃 Source code', url='https://github.com/Greymattersbot/md-renamebot')
              ]]
@@ -65,12 +65,12 @@ async def cb_handler(client: Client , query: CallbackQuery):
              [[
                InlineKeyboardButton("♦️ Help", callback_data = "help")
              ],[
-               InlineKeyboardButton('📢 Update Channel', url='https://t.me/GreyMatter_Bots'),
-               InlineKeyboardButton('♻️ Suppot Group', url='https://t.me/GreyMatters_Bots_Discussion')
+               InlineKeyboardButton('📢 Admin', url='https://t.me/SexyNano'),
+               InlineKeyboardButton('♻️ Owner', url='https://t.me/The_NanamiiKento')
              ],[
                 InlineKeyboardButton('📃 Source code', url='https://github.com/Greymattersbot/md-renamebot')
              ]]
-        ))
+            )
         
     elif data == "help":
         await query.message.edit_text(
